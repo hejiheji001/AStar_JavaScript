@@ -1,3 +1,7 @@
+##What is A*
+A* is a simple path finding algorithm
+See [wiki](https://en.wikipedia.org/wiki/A*_search_algorithm)
+
 ##Usage
 Give a formated input and call processData(input).
 
