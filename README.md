@@ -1,3 +1,7 @@
+##Usage
+Give a formated input and call processData(input).
+
+
 ##Input Format
 
 The first line contains 2 space separated integers which is the position of the PacMan.
@@ -70,3 +74,28 @@ Print the distance 'D' between the source 'P' and the destination '.' calculated
 %.%-%-%-------%---%-------%---%-%--P%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 ```
+
+##Sample Output
+
+```
+210
+35 35
+34 35
+33 35
+33 34
+33 33
+33 32
+33 31
+32 31
+31 31
+31 30
+31 29
+32 29
+33 29
+33 28
+33 27
+33 26
+......
+```
+
+In this example, PacMan is at the position (35,35) and the food is at the position (35,1). The AStar path length between (35,35) and (35,1) is 210. All the nodes encountered between (35,35) and (35,1) both included is printed in the next 211 lines.
